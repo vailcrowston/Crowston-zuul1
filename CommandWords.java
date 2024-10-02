@@ -1,12 +1,12 @@
 /**
- * This class is part of the "World of Zuul" application. 
- * "World of Zuul" is a very simple, text based adventure game.  
+ *  An updated variation of World of Zuul called, Girly World. 
+ *  Here in Girly World, we have six rooms: 
+ *  a makeup studio, a boutique, a flower garden, a spa, a coffee shop, and a fashion runway.
  * 
- * This class holds an enumeration of all command words known to the game.
- * It is used to recognise commands as they are typed in.
- *
- * @author  Michael Kölling and David J. Barnes
- * @version 2016.02.29
+ *  To play this game, create an instance of this class and call the "play"
+ *  method.
+ * 
+ * @author  Vail Crowston
  */
 
 public class CommandWords
