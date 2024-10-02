@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Room
+comment0.text=\r\n\ \ An\ updated\ variation\ of\ World\ of\ Zuul\ called,\ Girly\ World.\ \r\n\ \ Here\ in\ Girly\ World,\ we\ have\ six\ rooms\:\ \r\n\ \ a\ makeup\ studio,\ a\ boutique,\ a\ flower\ garden,\ a\ spa,\ a\ coffee\ shop,\ and\ a\ fashion\ runway.\r\n\ \r\n\ \ To\ play\ this\ game,\ create\ an\ instance\ of\ this\ class\ and\ call\ the\ "play"\r\n\ \ method.\r\n\ \r\n\ @author\ \ Vail\ Crowston\r\n
+comment1.params=description
+comment1.target=Room(java.lang.String)
+comment1.text=\r\n\ Create\ a\ room\ described\ "description".\ Initially,\ it\ has\r\n\ no\ exits.\ "description"\ is\ something\ like\ "a\ kitchen"\ or\r\n\ "an\ open\ court\ yard".\r\n\ @param\ description\ The\ room's\ description.\r\n
+comment2.params=north\ east\ south\ west
+comment2.target=void\ setExits(Room,\ Room,\ Room,\ Room)
+comment2.text=\r\n\ Define\ the\ exits\ of\ this\ room.\ \ Every\ direction\ either\ leads\r\n\ to\ another\ room\ or\ is\ null\ (no\ exit\ there).\r\n\ @param\ north\ The\ north\ exit.\r\n\ @param\ east\ The\ east\ exit.\r\n\ @param\ south\ The\ south\ exit.\r\n\ @param\ west\ The\ west\ exit.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getDescription()
+comment3.text=\r\n\ @return\ The\ description\ of\ the\ room.\r\n
+comment4.params=direction
+comment4.target=Room\ getExit(java.lang.String)
+comment4.text=\r\n\ Get\ the\ exit\ in\ the\ specified\ direction.\r\n\ @param\ direction\ The\ direction\ to\ get\ the\ exit\ (north,\ south,\ east,\ west).\r\n\ @return\ The\ room\ that\ is\ in\ the\ specified\ direction,\ or\ null\ if\ there\ is\ no\ exit.\r\n
+numComments=5
